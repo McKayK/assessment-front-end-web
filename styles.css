@@ -125,6 +125,7 @@ img {
 
 #randomRes {
 	justify-content: center;
+	color: white;
 	background-color: rgb(23, 192, 192);
 	height: 100px;
 	width: 100px;
@@ -158,4 +159,8 @@ p {
 #rest {
 	text-align: center;
 	list-style-position: inside;
+}
+
+button:hover {
+	cursor: pointer;
 }
