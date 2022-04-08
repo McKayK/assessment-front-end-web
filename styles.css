@@ -1,0 +1,161 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 750px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	position: sticky;
+	top: 5px;
+	border-bottom: 5px solid rgb(131, 86, 4);
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.profileButtons {
+	border: 2px solid rgb(219, 62, 62);
+	position: relative;;
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: rgb(215, 113, 203);	
+	background-color: rgb(216, 216, 126);
+	height: 100px;
+	width: 155px;
+	left: 125px;
+}
+
+#skills {
+	position: relative;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: large;
+	height: 250px;
+	color: rgb(185, 225, 240);
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+	background-size: cover;
+	background-image: url('https://i.ytimg.com/vi/_fKEj1bcdi0/maxresdefault.jpg')
+}
+
+#interests {
+	border: 10px solid darkcyan;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	color: rgb(255, 115, 115);
+	background-image: url('https://image.shutterstock.com/image-photo/stunning-galaxy-elements-this-image-260nw-1717095772.jpg');
+	background-size: cover;
+	height: 200px;
+}
+
+#career-goals {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-content: space-between;
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: rgb(68, 224, 255);
+	height: 300px;
+	background-image: url('https://mymodernmet.com/wp/wp-content/uploads/2020/08/smiley-face-history-0.jpg');
+	background-position: center
+}
+
+.listInterests {
+	font-size:25px;
+}
+
+#hCareer {
+	top: 0px;
+	position: absolute;
+	font-size: 50px;
+	color: rgb(51, 51, 51);
+}
+
+#goalsP {
+	position: absolute;
+	top: 70px;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 35px;
+	justify-content: center;
+}
+
+#hSkills {
+	position: absolute;
+	left: 10px;
+}
+
+#guitar {
+	position: absolute;
+	justify-content: center;
+}
+
+#list {
+	position: absolute;
+	right: 10px;
+}
+
+#randomRes {
+	justify-content: center;
+	background-color: rgb(23, 192, 192);
+	height: 100px;
+	width: 100px;
+}
+
+#welcome {
+	text-align: center;
+	font-size: 70px;
+	color: cornflowerblue;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#myNeighborhood {
+	display: block;
+	margin: auto;
+}
+
+h3 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+#foodImg {
+	position: relative;
+	align-items: center;
+}
+
+#rest {
+	text-align: center;
+	list-style-position: inside;
+}
